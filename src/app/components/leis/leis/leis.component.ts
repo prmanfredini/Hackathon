@@ -8,7 +8,7 @@ import { LeisAPI } from 'src/app/services/leis-api';
 })
 export class LeisComponent implements OnInit {
 
-  @Input()  leis: LeisAPI | undefined
+  @Input() leis: LeisAPI | undefined
 
   constructor() { }
 
