@@ -5,12 +5,12 @@
     <!--app-ajuda [institu]="list"></app-ajuda-->
     <mat-card>
     <img [src]="list?.imagem">
-
-    <span> {{ list?.nome }} </span>
-
-    <span> {{ list?.descricao }}</span>
-
-    <p> Acesse aqui para saber mais: {{ list?.site }} </p>
+    <br>
+    <span class=nome> {{ list?.nome }} </span>
+    <br>
+    <span class=desc> {{ list?.descricao }}</span>
+    <br>
+    <span class=link> Acesse aqui para saber mais: {{ list?.site }} </span>
 
 </mat-card>
 </div>

@@ -1,3 +1,4 @@
+import { LowerCasePipe } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -39,7 +40,7 @@ export class FormsComponent implements OnInit {
 
   contatoNovo(evento1: MouseEvent) {
 
-    alert( "Mensagem enviada, {this.getNome()}, entraremos em contato. " );
+    alert( "Mensagem enviada "+ this.getNome() + " entraremos em contato. " );
 
     }
 

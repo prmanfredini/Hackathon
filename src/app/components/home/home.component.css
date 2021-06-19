@@ -1,9 +1,13 @@
 /*----------Global*/
-
+.body{
+  display: flex;
+}
 img{
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 5px;
   margin: 20px;
+  align-items: center;
+  justify-content:space-between;
 }
 
 h1{

@@ -5,3 +5,14 @@
 img{
   max-width: 100%;
 }
+.nome{
+ font-size: 15px ;
+}
+.desc{
+  font-size: 10px ;
+}
+.link{
+  font-size: 10px ;
+  color: blue;
+
+}
