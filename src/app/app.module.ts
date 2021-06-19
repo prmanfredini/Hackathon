@@ -21,7 +21,7 @@ import { MatListModule } from '@angular/material/list';
 import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
-import { LeisComponent } from './components/leis/leis/leis.component';
+
 
 
 
@@ -32,8 +32,8 @@ import { LeisComponent } from './components/leis/leis/leis.component';
     AjudaComponent,
     FormsComponent,
     HomeComponent,
-    MenuTemplateComponent,
-    LeisComponent,
+    MenuTemplateComponent
+
   ],
   imports: [
     BrowserModule,
