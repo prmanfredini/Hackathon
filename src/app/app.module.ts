@@ -7,6 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AjudaComponent } from './components/ajuda/ajuda.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { HomeComponent } from './components/home/home.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { MatCardModule } from  '@angular/material/card';
+import { FormsModule } from '@angular/forms';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -41,7 +45,9 @@ import { LeisComponent } from './components/leis/leis/leis.component';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    MatCardModule
   ],
   providers: [
     {provide: LOCALE_ID,
