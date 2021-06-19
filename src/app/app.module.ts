@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MatCardModule } from  '@angular/material/card';
 import { FormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatButtonModule } from  '@angular/material/button';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     MatCardModule,
     FormsModule,
     MatFormFieldModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
