@@ -1,1 +1,15 @@
-<p>ajuda works!</p>
+
+ <h1>Instituições: </h1>
+  <div class= institutos app-ajuda *ngFor="let list of listaInstitu;">
+
+    <img [src]="list?.imagem" >
+
+    <span> [intitu]="list?.nome" </span>
+
+    <span> {{ list?.descricao }}</span>
+
+    <p> Acesse aqui para saber mais: {{ list?.site }} </p>
+
+  </div>
+
+

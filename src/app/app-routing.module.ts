@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AjudaComponent } from './components/ajuda/ajuda.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { HomeComponent } from './components/home/home.component';
+import { LeisComponent } from './components/leis/leis/leis.component';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 
 
@@ -21,6 +22,10 @@ const routes: Routes = [{
     {
       path: 'forms',
       component: FormsComponent
+    },
+    {
+      path: 'leis',
+      component: LeisComponent
     }
   ]
 }
