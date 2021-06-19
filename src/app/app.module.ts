@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LayoutModule } from '@angular/cdk/layout';
 import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 import { LeisComponent } from './components/leis/leis/leis.component';
+import { InstiComponent } from './components/instituicoes/insti/insti.component';
 
 
 
@@ -28,7 +29,8 @@ import { LeisComponent } from './components/leis/leis/leis.component';
     FormsComponent,
     HomeComponent,
     MenuTemplateComponent,
-    LeisComponent
+    LeisComponent,
+    InstiComponent
   ],
   imports: [
     BrowserModule,

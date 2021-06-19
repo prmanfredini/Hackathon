@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { LeisAPI } from 'src/app/services/leis-api';
 
 @Component({
   selector: 'app-leis',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./leis.component.css']
 })
 export class LeisComponent implements OnInit {
+
+  @Input()  leis: LeisAPI | undefined
 
   constructor() { }
 
