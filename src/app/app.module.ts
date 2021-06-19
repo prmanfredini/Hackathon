@@ -4,9 +4,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AjudaComponent } from './ajuda/ajuda.component';
-import { FormsComponent } from './forms/forms.component';
-import { HomeComponent } from './home/home.component';
+import { AjudaComponent } from './components/ajuda/ajuda.component';
+import { FormsComponent } from './components/forms/forms.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
