@@ -3,12 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 import { AjudaComponent } from './components/ajuda/ajuda.component';
 import { FormsComponent } from './components/forms/forms.component';
 import { HomeComponent } from './components/home/home.component';
-import { NavComponent } from './components/nav/nav.component';
+import { MenuTemplateComponent } from './components/menu-template/menu-template.component';
 
 
 const routes: Routes = [{
   path: '',
-  component: NavComponent,
+  component: MenuTemplateComponent,
   children: [
     {
       path: '',
