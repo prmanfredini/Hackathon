@@ -1,17 +1,20 @@
 <mat-card>
   <mat-card-title>Denúncia</mat-card-title>
-  <form>
-      <mat-form-field>
-          <input matInput placeholder="Nome">
-      </mat-form-field>
-      <mat-form-field>
-          <input matInput placeholder="E-mail" >
-      </mat-form-field>
-      <mat-form-field>
-        <input matInput placeholder="Mensagem" >
-    </mat-form-field>
-    <button mat-raised-button color="primary">
-      Denunciar
-  </button>
-  </form>
+  <div class=forms>
+    <form action="">
+
+      <h4>Criar seu post</h4>
+
+      <label for="Imagem">Nome: </label>
+      <input type="text" (keyup)="setNome($event)" placeholder="Nome"/>
+      <br>
+      <label for="Imagem">Contato: </label>
+      <input type="text" (keyup)="setContato($event)" placeholder="E-mail ou telefone">
+      <br>
+      <label for="Texto">Texto: </label>
+      <input type="text" (keyup)="setTexto($event)" placeholder="Mensagem" />
+      <br>
+    </form>
+    <button (click)="contatoNovo($event)">Enviar</button>
+    </div>
 </mat-card>
