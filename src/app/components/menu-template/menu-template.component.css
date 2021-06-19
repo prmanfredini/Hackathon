@@ -4,14 +4,17 @@
 
 .sidenav {
   width: 200px;
+  background-color: rgba(255, 255, 255, 0.555);
 }
 
 .sidenav .mat-toolbar {
-  background: inherit;
+  background: rgb(233, 32, 59);
 }
 
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;
   z-index: 1;
+  background-attachment: fixed;
+  background-color: rgb(233, 32, 65);
 }
